@@ -11,13 +11,13 @@ print(list_of_random_things[:2])
 print(list_of_random_things[1:])
 
 print("\n")
-print('this' in 'this is a string')
-print('isa' in 'this is a string')
+print('this' in 'this is a string') #true
+print('isa' in 'this is a string')   #false
 
 print("\n")
 my_lst = [1, 2, 3, 4, 5]
 my_lst[0] = 'one'
-print(my_lst)
+print(my_lst) #['one', 2, 3, 4, 5]
 
 print("\n")
 month = 8
@@ -39,3 +39,22 @@ sentence1 = "I wish to register a complaint."
 sentence2 = ["I", "wish", "to", "register", "a", "complaint", "."]
 sentence2[6]="!"
 print(sentence2)
+
+print("\n")
+new_str = "\n".join(["fore", "aft", "starboard", "port"]) #"\n" adds new line between each element
+print(new_str)
+
+print("\n")
+name = "-".join(["García", "O'Kelly"])
+print(name)
+
+#append method
+#A helpful method called append adds an element to the end of a list.
+
+letters = ['a', 'b', 'c', 'd']
+letters.append('z') #addz z to the end of the list
+print(letters)
+
+print("\n")
+names = ["Carol", "Albert", "Ben", "Donna"]
+print(" & ".join(sorted(names)))
