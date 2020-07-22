@@ -1,8 +1,8 @@
-largest = None
-smallest = None
+largest = 20
+smallest = 5
 while True:
     try:
-        num = raw_input("Enter a number: ")
+        num =input("Enter a number: ")
         if num == "done":
             break
         print(num)
@@ -16,3 +16,5 @@ while True:
 
 print("Maximum", largest)
 print("Minimum", smallest)
+
+
