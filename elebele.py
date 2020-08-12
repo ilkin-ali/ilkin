@@ -1,15 +1,4 @@
-start_num = 99
-end_num = 101
-count_by = 2
+from datetime import datetime
 
-if start_num > end_num:
-    result = "Oops! Looks like your start value is greater than the end value. Please try again."
-
-else:
-    break_num = start_num
-    while break_num < end_num:
-        break_num += count_by
-
-    result = break_num
-
-print(result)
+print("Hello! My name is Tile.\n"
+      f"I was created in {datetime.now().year}")

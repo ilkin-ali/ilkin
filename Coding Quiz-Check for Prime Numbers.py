@@ -15,7 +15,7 @@ for num in check_prime:
         if i == num -1:
             print("{} IS a prime number".format(num))
 
-#Question: Write code to check if the numbers provided in the list check_prime are prime numbers.
+"""Question: Write code to check if the numbers provided in the list check_prime are prime numbers.
 # For each number, if the number is prime, the code should print that the number is a prime number.
 # If the number is NOT a prime number, it should print that the number is not a prime number,
 # and also print a factor of that number besides 1 and the number itself.
@@ -26,4 +26,4 @@ for num in check_prime:
 #Create a "search-for-factors" loop beginning at 2, and continuing up to the (number-1)
 #Use a conditional statement with themodulo operator to check if our number when divided by the possible factor yields any remainder besides 0.
 #If we ever find one factor, we can declare that the number is not prime, and state the factor we found. Then we can break out of the loop for that number.
-#If we get up to the (number - 1) and haven't broken out of the loop, then we can declare that the number is prime.
+#If we get up to the (number - 1) and haven't broken out of the loop, then we can declare that the number is prime."""
