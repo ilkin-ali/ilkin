@@ -1,4 +1,10 @@
-from datetime import datetime
+def responsibility(project_manager="Sara", developer="Abdul", tester="Yana", designer="Mark"):
 
-print("Hello! My name is Tile.\n"
-      f"I was created in {datetime.now().year}")
+    # Abdul writes code
+    # Yana tests the system
+    # Sara manages the product
+    # Mark develops design
+    print(developer, "writes code")
+    print(tester, "tests the system")
+    print(project_manager, "manages the product")
+    print(designer, "develops design")
